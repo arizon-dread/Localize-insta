@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-06T22:15:14.536Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 OPR/83.0.4254.27" etag="2UNFZ03OnRFLkHilrNTT" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-06T22:21:43.405Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 OPR/83.0.4254.27" etag="QE0d_Mo3wR19Le277nJS" version="16.5.3" type="github">
   <diagram id="0iUeZc2D6mCHTWqdZ62-" name="Page-1">
-    <mxGraphModel dx="1824" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1885" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -395,7 +395,7 @@
         <mxCell id="LIp1BZR0Zr4NOV94ofFp-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="LIp1BZR0Zr4NOV94ofFp-120" target="LIp1BZR0Zr4NOV94ofFp-133">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LIp1BZR0Zr4NOV94ofFp-120" value="GET&lt;br&gt;/users/{username}/posts/" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LIp1BZR0Zr4NOV94ofFp-120" value="GET&lt;br&gt;/posts/users/{username}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="101" y="268" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LIp1BZR0Zr4NOV94ofFp-125" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Postgres/Mariadb" style="group" vertex="1" connectable="0" parent="1">
@@ -424,6 +424,9 @@
         </mxCell>
         <mxCell id="LIp1BZR0Zr4NOV94ofFp-133" value="Handler" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="250" y="120" width="108" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="LIp1BZR0Zr4NOV94ofFp-138" value="GET&lt;br&gt;/posts/tags/{hashtag}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="101" y="320" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
